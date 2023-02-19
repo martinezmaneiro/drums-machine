@@ -1,0 +1,16 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/drum-sticks-hitting-snare-drum-with-splashing-water-black-background-stage-lighting_169016-14166.jpg?w=1380&t=st=1676809282~exp=1676809882~hmac=9e300f389c8e4cf252747ab5143df47a055d9d50038894e01f02ac9d463c1625);
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 35vh;
+    max-width: 400px;
+    min-width: 366px;
+}
+
+.drum-pad {
+    width: 80px;
+}
