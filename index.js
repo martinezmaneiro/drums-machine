@@ -108,7 +108,7 @@ const Pad =({clip, volume, setRecording})=> {
         };
     };
 
-    {/**/}
+    {/*This function integrates the volume and active/non-active state to the audio elements and also triggers the sound when called*/}
     const playSound = () => {
         const audioTag = document.getElementById(clip.keyTrigger);
         setActive(true);
