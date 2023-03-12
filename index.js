@@ -118,7 +118,7 @@ const Pad =({clip, volume, setRecording})=> {
         {/*We save the key sequence in state to be dynamically displayed at the h3 element described above */}
         setRecording(prev => prev + clip.keyTrigger + '');
     };
-
+    {/*Call audioClip data as props for the Pad elements*/}
     return (
         <div onClick={playSound} className={`btn btn-secondary p-4 m-3 col-3 drum-pad ${active && 'btn-warning'}`}>
             <audio className='clip' id={clip.keyTrigger} src={clip.url} />
