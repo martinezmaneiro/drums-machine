@@ -92,7 +92,7 @@ const App=()=> {
 };
 
 const Pad =({clip, volume, setRecording})=> {
-    {/*This useState hook is used to temporarily change the display of our component combining && conditional rendering and Bootstrap classes*/}
+    {/*A state variable is used to temporarily change the display of our component combining && conditional rendering and Bootstrap classes*/}
     const [active, setActive] = React.useState(false);
     {/*Subscribing to the keydown event to trigger the handleKeyPress function and it's cleanup function*/}
     React.useEffect(() => {
