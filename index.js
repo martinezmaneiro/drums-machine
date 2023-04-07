@@ -67,9 +67,9 @@ const App=()=> {
                     />
                 ))};
                 <br/>
-                <h4>Volume</h4>
+                <h3>Volume</h3>
                 {/*Ranged volume input that triggers useState volume setter when an interaction is done*/}
-                <input
+                <label><input
                     type='range'
                     step='0.01'
                     value={volume}
@@ -78,6 +78,7 @@ const App=()=> {
                     className='w-50'
                     onChange= {(e) => setVolume(e.target.value)}
                 />
+                </label>
                 {/*This h3 element will show the sequence of triggered keys*/}
                 <h3>{recording}</h3>
                 {/*Button element to reset the h3 above element's child by setting it's state to '' again*/}
