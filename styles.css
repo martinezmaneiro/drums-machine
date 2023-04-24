@@ -1,12 +1,15 @@
 body {
     background-image: url(https://i.pinimg.com/originals/f8/46/84/f846842811b2d15e632db6fda339eae8.png);
+    background-color: #090b16;
     background-repeat: no-repeat;
-    background-color: #000;
-    background-size: cover;
+    background-size: contain;
+    height: 100vh;
 }
 
 .container {
-    margin-top: 30vh;
+    position: absolute;
+    left: 40vw;
+    top: 30vh;
     max-width: 400px;
     min-width: 366px;
 }
