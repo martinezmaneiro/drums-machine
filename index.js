@@ -65,7 +65,7 @@ const App=()=> {
                         volume={volume}
                         setRecording={setRecording}
                     />
-                ))};
+                ))}
                 <br/>
                 <h3>Volume</h3>
                 {/*Ranged volume input that triggers useState volume setter when an interaction is done*/}
