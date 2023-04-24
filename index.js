@@ -75,7 +75,7 @@ const App=()=> {
                     value={volume}
                     max='1'
                     min='0'
-                    className='w-50'
+                    className='range'
                     onChange= {(e) => setVolume(e.target.value)}
                 />
                 </label>

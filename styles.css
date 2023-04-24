@@ -14,3 +14,7 @@ body {
 .drum-pad {
     width: 80px;
 }
+
+.range {
+    width: 300px;
+}
